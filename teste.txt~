@@ -10,8 +10,6 @@ git status -s
 //Add pasta no rep.
 git add Curso_Java_Aula_2
 
-git add.
-
 //Commit
 git commit -m "Message"
 
