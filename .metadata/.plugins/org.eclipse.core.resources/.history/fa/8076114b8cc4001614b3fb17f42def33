@@ -1,0 +1,18 @@
+package br.com.dextraining.biblioteca;
+
+import java.util.Scanner;
+
+public class Menu {	
+	public static void main(String[] args) {
+		
+	}
+	
+	private static int mostrarMenu(Scanner scanner) {
+		System.out.println("1. Adicionar Livro");
+		System.out.println("2. Buscar Livro");
+		System.out.println("3. Remover Livro");
+		System.out.println("4. Listar Livro");
+		System.out.println("5. Sair");
+		return scanner.nextInt();
+	}
+}

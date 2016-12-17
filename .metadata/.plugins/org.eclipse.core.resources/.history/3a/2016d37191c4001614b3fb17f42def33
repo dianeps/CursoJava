@@ -1,0 +1,51 @@
+package br.com.dextraining.biblioteca;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+import br.com.dextraining.conta.Conta;
+
+public class Menu {	
+	private static int mostrarMenu(Scanner scanner) {
+		System.out.println("1. Adicionar Livro");
+		System.out.println("2. Buscar Livro");
+		System.out.println("3. Remover Livro");
+		System.out.println("4. Listar Livro");
+		System.out.println("5. Sair");
+		return scanner.nextInt();
+	}
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int opcao = mostrarMenu(scanner);
+		
+		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");				
+		String dataString = scanner.nextLine();		
+		Date minhaData = format.parse(dataString);
+		
+		while (opcao != 4) {
+			if (opcao == 1) {	
+				//codigo,autor,titulo,data de publicacao
+				System.out.println("Informe o codigo do livro:");
+			} else if (opcao == 2) {				
+				System.out.println("Ler valor do deposito e depositar");
+			} else if (opcao == 3) {
+				System.out.println("Mostrar saldo");
+			} else {
+				System.out.println("Opcao invalida!");
+			}
+			opcao = mostrarMenu(scanner);
+		}
+		scanner.close();
+	}
+	
+	public static Conta conta = new Conta(realizado, valor);
+	
+	/*data
+	//main throws Exception
+	SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");		
+	Scanner scanner = new Scanner(System.in);		
+	String dataString = scanner.nextLine();		
+	Date minhaData = format.parse(dataString);*/	
+}

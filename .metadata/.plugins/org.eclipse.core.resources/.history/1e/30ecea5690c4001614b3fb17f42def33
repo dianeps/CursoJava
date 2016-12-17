@@ -1,0 +1,12 @@
+package br.com.dextraining.biblioteca;
+
+public class Biblioteca {	
+	public Livro livros[] = new Livro[100];
+	
+	public boolean BuscarLivro(String codigo){
+		for (int indiceCod; indiceCod < 100; indiceCod++){
+			
+		}
+		return true;
+	}
+}

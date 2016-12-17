@@ -1,0 +1,11 @@
+package br.com.dextraining.biblioteca;
+
+public class Livro {
+	//codigo,autor,titulo,data de publicacao
+	private String codigo;
+	private String autor;
+	private String titulo;
+	private Date dataPublicacao;
+	
+	
+}
