@@ -1,7 +1,7 @@
  package br.com.dextraining.conta;
 
 public class Conta {
-	double saldo = 1000;
+	private double saldo = 1000;
 	boolean realizado;
 		
 	//construtor
