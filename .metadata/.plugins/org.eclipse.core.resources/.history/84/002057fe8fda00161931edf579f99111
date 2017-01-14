@@ -1,0 +1,11 @@
+package br.com.dextraining.collections;
+
+public class geradorSenha {
+	public void gerarIdoso(){
+		
+	}
+	
+	public void gerarPadrao(){
+		
+	}
+}

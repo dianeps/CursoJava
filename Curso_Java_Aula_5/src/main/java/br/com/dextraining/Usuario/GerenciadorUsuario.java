@@ -1,0 +1,32 @@
+package br.com.dextraining.Usuario;
+
+import br.com.dextraining.exceptions.ErroValidacaoException;
+import br.com.dextraining.exceptions.UsuarioInvalidoException;
+
+public class GerenciadorUsuario {
+	
+	public void adicionar(Usuario usuario) throws ErroValidacaoException, IllegalArgumentException {
+		if (usuario.getSenha() == null){
+			throw new ErroValidacaoException("O campo senha é obrigatório!");
+		}
+		if (usuario.getNome() == null){
+			throw new ErroValidacaoException("O campo nome é obrigatório!");
+		}
+		if (usuario.getEmail() == null){
+			throw new ErroValidacaoException("O campo email é obrigatório!");
+		}
+		//throw new NullPointerException();
+		throw new IllegalArgumentException("erro qualquer");		
+	}
+	
+	public void verificar (Usuario usuario) throws UsuarioInvalidoException {
+		if (usuario.getEmail() != "admin@email.com"){
+			throw new UsuarioInvalidoException("Email inválido!");
+		}
+		if (usuario.getSenha() != "123mudar"){
+			throw new UsuarioInvalidoException("Senha inválida!");
+		}
+		
+	}
+	
+}

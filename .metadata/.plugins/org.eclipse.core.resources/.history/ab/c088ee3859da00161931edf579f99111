@@ -1,0 +1,10 @@
+package br.com.dextraining.Usuario;
+
+public class Usuario {
+	super();
+	private String nome;
+	private String email;
+	private String senha;
+	
+	
+}

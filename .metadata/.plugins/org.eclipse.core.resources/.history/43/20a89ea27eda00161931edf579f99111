@@ -1,0 +1,27 @@
+package br.com.dextraining.garagem;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Garagem {
+
+	Map<String, Carro> carros = new HashMap<String, Carro>();
+	
+	public boolean adicionarCarro(Carro carro){
+		
+		return false;
+	}
+	
+	public boolean venderCarro(String placa){
+		return false;
+	}
+	
+	public Carro buscarCarro(String placa){
+		return null;
+	}
+	
+	public Carro[] listarCarros(){
+		return carros;
+	}
+	
+}

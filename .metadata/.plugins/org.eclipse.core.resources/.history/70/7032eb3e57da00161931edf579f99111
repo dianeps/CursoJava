@@ -1,0 +1,8 @@
+package br.com.dextraining.ExercicioEnums;
+
+public class Data {
+	 private MesesAno Mes;
+	 private int dia;
+	 private int ano;	 
+	 
+}

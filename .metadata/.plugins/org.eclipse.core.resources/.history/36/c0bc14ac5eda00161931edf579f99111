@@ -1,0 +1,23 @@
+package br.com.dextraining.Usuario;
+
+import br.com.dextraining.exceptions.ErroValidacaoException;
+
+public class GerenciadorUsuario {
+	
+	public void adicionar(Usuario usuario) throws ErroValidacaoException, IllegalArgumentException {
+		if (usuario.getSenha() == null){
+			throw new ErroValidacaoException("O campo senha é obrigatório!");
+		}
+		if (usuario.getNome() == null){
+			throw new ErroValidacaoException("O campo nome é obrigatório!");
+		}
+		if (usuario.getEmail() == null){
+			throw new ErroValidacaoException("O campo email é obrigatório!");
+		}
+		//throw new NullPointerException();
+		throw new IllegalArgumentException("erro qualquer");
+		
+		
+	}
+	
+}

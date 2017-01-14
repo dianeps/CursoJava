@@ -1,0 +1,7 @@
+package br.com.dextraining.Usuario;
+
+public class GerenciadorUsuario {
+	public void adicionar(Usuario usuario){
+		
+	}
+}

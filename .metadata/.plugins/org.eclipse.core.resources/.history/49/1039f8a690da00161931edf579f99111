@@ -1,0 +1,19 @@
+package br.com.dextraining.collections;
+
+public class geradorSenha {
+	
+	private List<Integer> senhasPadrao;
+	private List<Integer> senhasIdoso;
+	
+	public geradorSenha(){
+		this.senhasPadrao = new ArrayList<Integer>();
+		
+	}
+	public void gerarIdoso(){
+		
+	}
+	
+	public void gerarPadrao(){
+		
+	}
+}

@@ -1,0 +1,6 @@
+package br.com.dextraining.ExercicioEnums;
+
+public class Data {
+	 MesesAno Mes = MesesAno.JANEIRO;
+	 
+}

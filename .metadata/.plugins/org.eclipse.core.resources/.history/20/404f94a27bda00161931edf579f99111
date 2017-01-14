@@ -1,0 +1,5 @@
+package br.com.dextraining.garagem;
+
+public class Carro {
+
+}

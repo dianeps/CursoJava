@@ -1,0 +1,14 @@
+package br.com.dextraining.garagem;
+
+import java.util.Scanner;
+
+public class InterfaceGaragem {
+	private static int mostrarMenu(Scanner scanner) {
+		System.out.println("1. Cadastrar");
+		System.out.println("2. Vender (por placa)");
+		System.out.println("3. Buscar (por placa)");
+		System.out.println("4. Listar");
+		System.out.println("5. Sair");
+		return scanner.nextInt();
+	}
+}

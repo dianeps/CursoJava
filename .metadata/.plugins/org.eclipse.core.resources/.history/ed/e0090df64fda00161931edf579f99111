@@ -1,0 +1,16 @@
+package br.com.dextraining.ExercicioEnums;
+
+public class MesesAno {
+	JANEIRO,
+	FEVEREIRO,
+	MARÇO,
+	ABRIL,
+	MAIO,
+	JUNHO,
+	JULHO,
+	AGOSTO,
+	SETEMBRO,
+	OUTUBRO,
+	NOVEMBRO,
+	DEZEMBRO
+}

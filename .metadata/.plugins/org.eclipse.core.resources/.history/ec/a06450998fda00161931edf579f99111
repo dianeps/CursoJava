@@ -1,0 +1,13 @@
+package br.com.dextraining.collections;
+
+import java.util.Scanner;
+
+public class interfaceSenha {
+	private static int mostrarMenu(Scanner scanner) {
+		System.out.println("1. Gerar senha padrão");
+		System.out.println("2. Gerar senha idoso");
+		System.out.println("3. Próxima senha");		
+		System.out.println("4. Sair");
+		return scanner.nextInt();
+	}
+}

@@ -1,0 +1,14 @@
+package br.com.dextraining.garagem;
+
+public class Garagem {
+	public boolean adicionarCarro(Carro carro){
+		
+		return false;
+	}
+	
+	public Carro buscarCarro(String placa){
+		return null;
+	}
+	
+	
+}

@@ -1,0 +1,27 @@
+package br.com.dextraining.Usuario;
+
+import br.com.dextraining.exceptions.ErroValidacaoException;
+
+public class TestarUsuario {
+	public static void main(String[] args) throws ErroValidacaoException {
+		GerenciadorUsuario gerenciador = new GerenciadorUsuario();
+		
+		Usuario usuario = new Usuario(null,null,null);
+		try {
+			gerenciador.adicionar(usuario);
+			System.out.println("Usuario adicionado com sucesso!");
+		} catch (Exception e){
+			
+		}
+		
+		
+		catch (ErroValidacaoException e) { //runtime
+			System.out.println(e.getMessage());
+		} catch (IllegalArgumentException e){
+			System.out.println("Segundo catch");
+		}
+		
+		
+		
+	}
+}

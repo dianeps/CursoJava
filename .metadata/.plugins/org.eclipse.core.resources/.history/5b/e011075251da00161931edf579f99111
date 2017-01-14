@@ -1,0 +1,8 @@
+package br.com.dextraining.ExercicioEnums;
+
+public class Data {
+	 MesesAno Mes = MesesAno.JANEIRO;
+	 int dia = 1;
+	 int ano = 2017;
+	 
+}

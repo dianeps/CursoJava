@@ -1,0 +1,15 @@
+package br.com.dextraining.Usuario;
+
+public class GerenciadorUsuario {
+	public void adicionar(Usuario usuario){
+		if (usuario.getSenha() == null){
+			throw new ErroValidacaoException("O campo senha é obrigatório!");
+		}
+		if (usuario.getNome() == null){
+			
+		}
+		if (usuario.getEmail() == null){
+			
+		}
+	}
+}
