@@ -1,0 +1,7 @@
+package stringBuilder;
+
+public class ExemploStringBuilder {
+ StringBuilder builder = new StringBuilder();
+ builder.append(10);
+ 
+}

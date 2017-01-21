@@ -1,0 +1,10 @@
+package Threads;
+
+public class testarDownloads {
+	
+	public static void main(String[] args) {
+		download downloadFilme = new download("filme.avi", 20);
+		download downloadMusica = new download("musica.avi", 10);
+		download downloadDocumento = new download("texto.avi", 5);
+	}
+}

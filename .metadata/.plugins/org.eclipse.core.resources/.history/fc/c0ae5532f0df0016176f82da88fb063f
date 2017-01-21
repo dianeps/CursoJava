@@ -1,0 +1,8 @@
+package Threads;
+
+public class testarDownloads {
+	
+	public static void main(String[] args) {
+		download downloadFilme = new download("filme.avi");
+	}
+}

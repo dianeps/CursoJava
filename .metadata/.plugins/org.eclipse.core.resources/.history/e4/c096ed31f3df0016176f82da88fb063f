@@ -1,0 +1,14 @@
+package Threads;
+
+public class monitorDownload implements Runnable {
+	private download download;
+	
+	public 
+	
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

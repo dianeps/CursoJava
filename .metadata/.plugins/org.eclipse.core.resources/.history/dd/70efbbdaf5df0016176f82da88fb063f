@@ -1,0 +1,52 @@
+package Threads;
+
+import java.text.MessageFormat;
+
+public class download implements Runnable {
+	private final Object monitorProgresso;
+	private String nomeArquivo;
+	private int tamanho;
+	private int contador = 0;
+	
+	public download(String nomeArquivo, int tamanho){
+		this.nomeArquivo = nomeArquivo;
+		this.tamanho = tamanho;
+		this.monitorProgresso = new Object();
+	}
+	
+	
+	public void run() {
+		
+		
+		while (contador < tamanho){
+			//String mensagem = MessageFormat.format("Baixando {0} de {1} do arquivo {2}",contador, tamanho, nomeArquivo);
+			//System.out.println(mensagem);
+			contador ++;
+			monitorProgresso.notifyAll();
+			
+			try{
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				throw new RuntimeException(e);
+				
+			}
+		}
+		//System.out.println("Download finalizado: " + nomeArquivo);
+		
+	}
+	public boolean finalizado(){
+		return contador == tamanho;
+	}
+	
+	public Object getMonitorProgresso(){
+		return monitorProgresso;
+	}
+	
+	public String getNomeArquivo() {
+		return nomeArquivo;
+	}
+	
+	public int getTamanho(){
+		return tamanho;
+	}
+}

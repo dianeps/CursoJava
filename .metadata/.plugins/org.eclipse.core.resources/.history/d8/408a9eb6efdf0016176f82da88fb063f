@@ -1,0 +1,15 @@
+package Threads;
+
+public class download implements Runnable {
+	private String nomeArquivo;
+	private int tamanho;
+	s
+	public Download(String nomeArquivo, int tamanho){
+		
+	}
+	
+	@Override
+	public void run() {
+		
+	}
+}

@@ -1,0 +1,25 @@
+package Threads;
+
+public class download implements Runnable {
+	private String nomeArquivo;
+	private int tamanho;
+	
+	public download(String nomeArquivo, int tamanho){
+		this.nomeArquivo = nomeArquivo;
+		this.tamanho = tamanho;
+		
+	}
+	
+	@Override
+	public void run() {
+		int contador;
+		
+		while (contador < tamanho){
+			String mensagem = MessageFormat.format("Baixando {0} de {1} do arquivo {2}",contador, tamanho, nomeArquivo);
+			System.out.println(mensagem));
+			contador ++;
+		}
+		System.out.println("Baixando..." + nomeArquivo);
+		
+	}
+}

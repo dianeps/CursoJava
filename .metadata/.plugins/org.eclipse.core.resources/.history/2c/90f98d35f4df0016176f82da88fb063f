@@ -1,0 +1,19 @@
+package Threads;
+
+public class BarraProgressoDownload implements Runnable {
+	private download download;
+	
+	
+	
+	public BarraProgressoDownload(Threads.download download) {
+		super();
+		this.download = download;
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+package Threads;
+
+public class BarraProgressoDownload implements Runnable {
+	private download download;	
+	
+	public BarraProgressoDownload(Threads.download download) {
+		super();
+		this.download = download;
+	}
+
+	public void run() {
+		while (!download.finalizado()){
+			try{
+				download.getMonitorProgresso().wait();
+			} catch (InterruptedException e) {
+				throw new RuntimeException(e);
+			}			
+		}
+		//String mensagem = MessageFormat.format("Baixando {0} de {1} do arquivo {2}",contador, tamanho, nomeArquivo);
+		//System.out.println(mensagem);
+		//System.out.println("Download finalizado: " + nomeArquivo);		
+	}	
+}
