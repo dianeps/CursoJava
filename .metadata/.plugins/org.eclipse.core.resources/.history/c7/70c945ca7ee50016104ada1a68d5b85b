@@ -1,0 +1,30 @@
+package com.github.schionato.domain;
+
+import com.github.schionato.domain.produto.bebida.*;
+import com.github.schionato.domain.produto.Produto;
+import com.github.schionato.infra.EntityManagerFacade;
+import org.junit.Ignore;
+import org.junit.Test;
+
+import javax.persistence.EntityManager;
+
+public class Teste {
+
+    @Ignore
+    @Test
+    public void teste() throws Exception {
+        Produto expresso = new Expresso();
+        Produto cafeCanelinha = new Canela();
+        Produto cappuccino = new Cappuccino();
+        Produto cafeDescafeinado = new Descafeinado();
+
+        EntityManager em = EntityManagerFacade.em();
+
+        em.getTransaction().begin();
+        em.persist(expresso);
+        em.persist(cafeCanelinha);
+        em.persist(cappuccino);
+        em.persist(cafeDescafeinado);
+        em.getTransaction().commit();
+    }
+}

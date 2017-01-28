@@ -1,0 +1,12 @@
+package com.github.schionato.infra;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class pessoa {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	
+}

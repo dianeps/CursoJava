@@ -1,0 +1,6 @@
+package com.dextraining.cafeteria;
+
+public sexo {
+	FEMININO,
+	MASCULINO;
+}

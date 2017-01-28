@@ -1,0 +1,6 @@
+package com.dextraining.cafeteria;
+
+class sexo {
+	FEMININO,
+	MASCULINO;
+}

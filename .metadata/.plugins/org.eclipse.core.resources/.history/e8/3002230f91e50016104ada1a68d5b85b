@@ -1,0 +1,6 @@
+package com.dextraining.cafeteria;
+
+enum sexo {
+	FEMININO,
+	MASCULINO;
+}

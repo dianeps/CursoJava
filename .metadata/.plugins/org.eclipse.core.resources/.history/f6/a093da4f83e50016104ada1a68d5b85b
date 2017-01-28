@@ -1,0 +1,10 @@
+package com.github.schionato.infra;
+
+import javax.persistence.Entity;
+
+@Entity
+public class pessoa {
+	@Id
+	private long id;
+	
+}
