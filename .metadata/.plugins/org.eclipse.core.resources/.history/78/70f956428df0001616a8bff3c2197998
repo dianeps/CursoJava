@@ -1,0 +1,14 @@
+package br.com.dextra.financas.jpa;
+
+import javax.persistence.EntityManager;
+
+import service.JPAUtil;
+
+public class PopularInvestimento {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		manager.getTransaction().begin();
+		
+		
+	}
+}

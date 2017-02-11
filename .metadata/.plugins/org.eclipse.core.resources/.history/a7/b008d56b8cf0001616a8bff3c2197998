@@ -1,0 +1,24 @@
+package br.com.dextra.financas.jpa;
+
+import javax.persistence.EntityManager;
+
+import br.com.dextra.financas.modelo.PessoaInvestimento;
+import service.JPAUtil;
+
+public class PopularPessoaInvestimento {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		manager.getTransaction().begin();
+		
+		PessoaInvestimento PInvestimento1 = new PessoaInvestimento();
+		PessoaInvestimento PInvestimento2 = new PessoaInvestimento();
+		
+		PInvestimento1.setNome("Diane Santos");	
+		PInvestimento2.setNome("Clero de Paula");
+		
+		manager.persist(PInvestimento1);
+		manager.persist(PInvestimento2);
+		
+		
+	}
+}

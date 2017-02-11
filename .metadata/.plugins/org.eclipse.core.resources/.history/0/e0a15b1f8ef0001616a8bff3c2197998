@@ -1,0 +1,34 @@
+package br.com.dextra.financas.jpa;
+
+import javax.persistence.EntityManager;
+
+import br.com.dextra.financas.modelo.Investimento;
+import br.com.dextra.financas.modelo.PessoaInvestimento;
+import service.JPAUtil;
+
+public class PopularInvestimento {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		manager.getTransaction().begin();
+		
+		Investimento Investimento1 = new Investimento();
+		Investimento Investimento2 = new Investimento();
+		
+		/*
+		Investimento1.setNome("Diane Santos");	
+		Investimento2.setNome("Clero de Paula");
+		
+		manager.persist(PInvestimento1);
+		manager.persist(PInvestimento2);
+		*/
+		
+		Investimento1.setDescricao("Tesouro Direto");
+		Investimento1.setValor(2200.99);
+		Investimento1.setRendimentoMensal(200.99);
+		Investimento1.setPessoaInvestimento(1, "Diane Santos");
+		
+		manager.getTransaction().commit();
+		
+		manager.close();
+	}
+}

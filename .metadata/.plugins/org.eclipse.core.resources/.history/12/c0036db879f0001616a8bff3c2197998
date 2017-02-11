@@ -1,0 +1,12 @@
+package br.com.dextra.financas.jpa;
+
+import javax.persistence.EntityManager;
+
+public class PopularConta {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		
+		manager.getTransaction().begin();
+		
+	}
+}

@@ -1,0 +1,25 @@
+package br.com.dextra.financas.jpa;
+
+import javax.persistence.EntityManager;
+
+import br.com.dextra.financas.modelo.PessoaInvestimento;
+import service.JPAUtil;
+
+public class PopularPessoaInvestimento {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		manager.getTransaction().begin();
+		
+		PessoaInvestimento PInvestimento = new PessoaInvestimento();
+		
+		conta1 = new Conta();
+		
+		conta1.setBanco("001 - BANCO DO BRASIL");
+		conta1.setNumero("16987-8");
+		conta1.setAgencia("6543");
+		conta1.setTitular("Maria dos Santos");
+		
+		
+		
+	}
+}

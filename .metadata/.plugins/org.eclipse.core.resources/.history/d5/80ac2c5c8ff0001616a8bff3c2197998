@@ -1,0 +1,17 @@
+package service;
+
+public class InvestimentoService {
+
+	public static Investimento buscarPorId(Long id){
+
+	}
+	public static List<Investimento> buscarOrdenadoPorValor(){
+
+	}
+	public static List<Investimento> buscarInvestimentosPorValorRendaMensal(){
+
+	}
+	public static List<Investimento> buscarInvestimentoPorParteNome(String parteNome){
+
+	}
+}

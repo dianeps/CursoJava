@@ -1,0 +1,11 @@
+package br.com.dextra.financas.jpa;
+
+import javax.persistence.EntityManager;
+
+import br.com.dextra.financas.modelo.Investimento;
+import service.JPAUtil;
+
+
+public class PopularInvestimento {
+	
+}
