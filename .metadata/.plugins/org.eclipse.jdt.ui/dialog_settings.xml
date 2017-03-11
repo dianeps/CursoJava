@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="/home/java03/Desktop/Compartilhado/LIBS" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item value="637" key="DIALOG_WIDTH"/>
 		<item value="45" key="DIALOG_Y_ORIGIN"/>
-		<item value="161" key="DIALOG_X_ORIGIN"/>
 		<item value="491" key="DIALOG_HEIGHT"/>
+		<item value="161" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
@@ -14,8 +15,8 @@
 		<item value="true" key="showtypes"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
-		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="Comments"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -35,8 +36,8 @@
 		<item value="3" key="index"/>
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
@@ -46,8 +47,8 @@
 	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
 		<item value="630" key="DIALOG_WIDTH"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
-		<item value="703" key="DIALOG_HEIGHT"/>
 		<item value="372" key="DIALOG_X_ORIGIN"/>
+		<item value="703" key="DIALOG_HEIGHT"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
@@ -67,23 +68,23 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="667" key="DIALOG_WIDTH"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
-		<item value="364" key="DIALOG_X_ORIGIN"/>
 		<item value="806" key="DIALOG_HEIGHT"/>
+		<item value="364" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
-	<section name="NewClassWizardPage">
-		<item value="false" key="create_constructor"/>
-		<item value="true" key="create_unimplemented"/>
+	<section name="RenameInformationPopup">
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="*" key="patterns"/>
-		<item value="false" key="updateQualifiedNames"/>
 		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 		<item value="false" key="updateSimilarElements"/>
 	</section>
-	<section name="RenameInformationPopup">
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
@@ -92,8 +93,8 @@
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="650" key="DIALOG_WIDTH"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
-		<item value="764" key="DIALOG_HEIGHT"/>
 		<item value="329" key="DIALOG_X_ORIGIN"/>
+		<item value="764" key="DIALOG_HEIGHT"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

@@ -54,6 +54,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/java03/CursoJava/contas-jdbc"/>
 			<item value="/home/java03/CursoJava/cafe-jpa"/>
 			<item value="/home/java03/CursoJava/cafe-jpa-master"/>
 			<item value="/home/java03/CursoJava/passagens-aereas"/>
